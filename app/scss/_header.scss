@@ -1,0 +1,20 @@
+header {
+    z-index: 200;
+    position: fixed;
+    text-align: center;
+    color: $black;
+
+    h1 {
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: nowrap;
+        list-style: none;
+
+        li {
+            padding: 0 1rem;
+        }
+    }
+}

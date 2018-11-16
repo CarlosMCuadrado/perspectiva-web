@@ -1,71 +1,73 @@
 {
-  "name": "brunch-on-speed",
-  "description": "Skeleton for Brunch",
-  "private": true,
-  "author": "John Doe",
-  "version": "0.1.0",
-  "repository": "",
-  "scripts": {
-    "start": "LOGGY_STACKS=true brunch watch --server",
-    "build": "brunch build --production"
-  },
-  "dependencies": {
-    "cryptiles": "^4.1.3",
-    "deep-extend": "^0.6.0",
-    "hoek": "^6.0.3",
-    "jquery": "^3"
-  },
-  "devDependencies": {
-    "auto-reload-brunch": "^2",
-    "babel-brunch": "^6",
-    "babel-eslint": "^8",
-    "babel-preset-env": "^1",
-    "brunch": "^2",
-    "eslint": "^4",
-    "eslint-config-airbnb-base": "^12",
-    "eslint-config-prettier": "^2",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-prettier": "^2",
-    "pleeease-brunch": "^3",
-    "prettier": "^1",
-    "sass-brunch": "^2",
-    "uglify-js-brunch": "^2"
-  },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "eslintConfig": {
-    "parser": "babel-eslint",
-    "extends": [
-      "airbnb-base",
-      "prettier"
-    ],
-    "plugins": [
-      "import",
-      "prettier"
-    ],
-    "env": {
-      "jquery": true,
-      "browser": true
+    "name": "brunch-on-speed",
+    "description": "Skeleton for Brunch",
+    "private": true,
+    "author": "Carlos Cuadrado",
+    "version": "0.1.0",
+    "repository": "",
+    "scripts": {
+        "start": "LOGGY_STACKS=true brunch watch --server",
+        "build": "brunch build --production"
     },
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
+    "dependencies": {
+        "cryptiles": "^4.1.3",
+        "deep-extend": "^0.6.0",
+        "hoek": "^6.0.3",
+        "jquery": "^3",
+        "static-handlebars-brunch": "~ 0.1.0",
+        "@ibm/plex": "^1.2.1"
     },
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "singleQuote": true,
-          "trailingComma": "es5"
+    "devDependencies": {
+        "auto-reload-brunch": "^2",
+        "babel-brunch": "^6",
+        "babel-eslint": "^8",
+        "babel-preset-env": "^1",
+        "brunch": "^2",
+        "eslint": "^4",
+        "eslint-config-airbnb-base": "^12",
+        "eslint-config-prettier": "^2",
+        "eslint-plugin-import": "^2",
+        "eslint-plugin-prettier": "^2",
+        "pleeease-brunch": "^3",
+        "prettier": "^1",
+        "sass-brunch": "^2",
+        "uglify-js-brunch": "^2"
+    },
+    "prettier": {
+        "singleQuote": true,
+        "trailingComma": "es5"
+    },
+    "eslintConfig": {
+        "parser": "babel-eslint",
+        "extends": [
+            "airbnb-base",
+            "prettier"
+        ],
+        "plugins": [
+            "import",
+            "prettier"
+        ],
+        "env": {
+            "jquery": true,
+            "browser": true
+        },
+        "parserOptions": {
+            "ecmaVersion": 6,
+            "sourceType": "module"
+        },
+        "rules": {
+            "prettier/prettier": [
+                "error",
+                {
+                    "singleQuote": true,
+                    "trailingComma": "es5"
+                }
+            ]
         }
-      ]
+    },
+    "babel": {
+        "presets": [
+            "env"
+        ]
     }
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  }
 }
