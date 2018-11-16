@@ -1,4 +1,4 @@
-# Brunch on Speed
+# Perspectiva Site
 
 This is a skeleton (or boilerplate) for [Brunch](http://brunch.io), a fast and easy to configure building tool for modern Web development. The skeleton is intended to be a foundation for a long-scroll, single, static Web page.
 

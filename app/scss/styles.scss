@@ -1,7 +1,4 @@
-body {
-  font-family: 'Lato', sans-serif;
-}
-
-.page-header {
-  margin-top: 3rem;
-}
+@import 'variables';
+@import 'general';
+@import 'header';
+@import 'footer';
