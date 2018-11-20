@@ -1,8 +1,27 @@
 footer {
-    background-color: $dark-grey;
-    color: $dark-white;
-    padding: 4%;
-    display: grid;
-    grid-gap: 2%;
+    line-height: 1.5;
+    background-color: $dark-white;
+//    padding: 7% 5%;
+  
+}
 
+.footer-wrapper {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+}
+
+
+/* Styles for the form element */
+input[type=submit], input[type=text]{
+    background-color: white;
+    border: none;
+    color:  $dark-grey;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+input[type=submit]{
+    cursor: pointer;
 }

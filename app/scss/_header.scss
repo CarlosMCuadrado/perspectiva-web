@@ -6,26 +6,13 @@ header {
 
     nav {
         width: 90vw;
+        margin: auto;
 
         ul {
 
             display: flex;
             justify-content: space-around;
             padding: 3% 0;
-
-            a {
-                text-decoration: none;
-                color: $black;
-                font-weight: 500;
-
-                &:visited {}
-
-                &:hover {}
-
-                &:active {
-                    text-decoration: underline;
-                }
-            }
         }
     }
 

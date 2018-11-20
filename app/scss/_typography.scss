@@ -1,1 +1,70 @@
+/* general typography */
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+html {font-size: 1em;}
+
+body {
+  line-height: 1.45;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+
+/* icon typography */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../iconFont/icomoon.eot?1u7hr9');
+  src:  url('../iconFont/icomoon.eot?1u7hr9#iefix') format('embedded-opentype'),
+    url('../iconFont/icomoon.ttf?1u7hr9') format('truetype'),
+    url('../iconFont/icomoon.woff?1u7hr9') format('woff'),
+    url('../iconFont/icomoon.svg?1u7hr9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-behance_icon:before {
+  content: "\e900";
+}
+.icon-ig_icon:before {
+  content: "\e901";
+}
+.icon-linkedin_icon:before {
+  content: "\e902";
+}
+.icon-twitter_icon:before {
+  content: "\e903";
+}
