@@ -1,3 +1,5 @@
+/* General styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +14,17 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
 }
 
 .main {
     flex: 1;
+}
+
+.container-wrapper {
+  width: 90vw;
+  margin: auto;
 }
 
 body,
@@ -41,4 +50,22 @@ a {
     &:hover {
         color: $black;
     }
+}
+
+
+.em-dash {
+  height: 2px;
+  width: 40px;
+  background-color: black;
+}
+
+.em-dashWhite {
+  height: 2px;
+  width: 40px;
+  background-color: white;
+}
+
+.bg-mediumGrey {
+background-color: $medium-grey;
+color: white;
 }

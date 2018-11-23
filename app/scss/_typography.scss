@@ -1,4 +1,5 @@
-/* general typography */
+/* Typography styles */
+
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 html {font-size: 1em;}
@@ -27,6 +28,8 @@ h3 {font-size: 1.999em;}
 h4 {font-size: 1.414em;}
 
 small, .font_small {font-size: 0.707em;}
+
+.bold {font-weight: bold;}
 
 
 /* icon typography */

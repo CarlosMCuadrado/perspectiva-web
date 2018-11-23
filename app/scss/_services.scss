@@ -1,0 +1,23 @@
+/* Services styles */
+// .services-align {
+//   display: flex;
+//   flex-direction: column;
+// }
+//
+ .services-right {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 4% 0;
+}
+
+ .copy-services-wrapper {
+   width: 30%;
+ }
+
+ .services-align {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 4% 0;
+}
