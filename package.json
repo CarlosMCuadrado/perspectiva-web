@@ -10,12 +10,12 @@
         "build": "brunch build --production"
     },
     "dependencies": {
+        "@ibm/plex": "^1.2.1",
         "cryptiles": "^4.1.3",
         "deep-extend": "^0.6.0",
         "hoek": "^6.0.3",
         "jquery": "^3",
-        "static-handlebars-brunch": "~ 0.1.0",
-        "@ibm/plex": "^1.2.1"
+        "static-handlebars-brunch": "~ 0.1.0"
     },
     "devDependencies": {
         "auto-reload-brunch": "^2",

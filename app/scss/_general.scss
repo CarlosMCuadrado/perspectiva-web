@@ -25,6 +25,8 @@ text-rendering: optimizeLegibility;
 .container-wrapper {
   width: 90vw;
   margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 body,
@@ -55,12 +57,14 @@ a {
 
 .em-dash {
   height: 2px;
+  margin-top: -10px;
   width: 40px;
   background-color: black;
 }
 
 .em-dashWhite {
   height: 2px;
+  margin-top: -10px;
   width: 40px;
   background-color: white;
 }
@@ -68,4 +72,25 @@ a {
 .bg-mediumGrey {
 background-color: $medium-grey;
 color: white;
+}
+
+
+.hero {
+  margin: auto;
+}
+
+.inner-60 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4% 0;
+  width: 60vw;
+}
+
+.inner-40 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4% 0;
+  width: 40vw;
 }
