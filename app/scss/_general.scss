@@ -54,6 +54,13 @@ a {
     }
 }
 
+.social-ul {
+  display: flex;
+  justify-content: flex-start;
+  li {
+    padding-right: 1vw;
+  }
+  }
 
 .em-dash {
   height: 2px;
@@ -93,4 +100,17 @@ color: white;
   justify-content: space-around;
   padding: 4% 0;
   width: 40vw;
+}
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
 }
