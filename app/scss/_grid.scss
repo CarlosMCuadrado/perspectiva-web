@@ -1,0 +1,39 @@
+/* Grid styles */
+
+
+
+.wrapper-row {
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  flex-direction: row;
+}
+
+.wrapper-col {
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-3 {
+  width: 31vw;
+}
+
+
+@media (max-width: 400px) {
+  .wrapper-col {
+    display: block;
+  }
+  .wrapper-row {
+    display: block;
+  }
+}
