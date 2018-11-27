@@ -1,31 +1,59 @@
-/* Grid styles */
+/*------------------------------------*\
+  #GRID GENERAL-STYLES
+\*------------------------------------*/
 
 
 
 .wrapper-row {
   display: flex;
+  flex-direction: row;
   width: 90vw;
   margin: auto;
-  flex-direction: row;
+  padding: 2rem 1rem;
 }
 
 .wrapper-col {
   display: flex;
+  flex-direction: column;
   width: 90vw;
   margin: auto;
-  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.flex-container {
+  display: flex;
+
+}
+
+.space-center {
+  justify-content: center;
 }
 
 .space-between {
   justify-content: space-between;
 }
 
-.col {
-  flex: 1;
+.space-around {
+    justify-content: space-around;
 }
 
-.col-3 {
-  width: 31vw;
+.col {
+  flex: 1;
+  padding: 1rem;
+}
+
+.col-1 {
+  width: 33vw;
+  padding: 1rem;
+}
+
+.col-2 {
+  width: 66vw;
+  padding: 1rem;
+}
+
+.center {
+  text-align: center;
 }
 
 

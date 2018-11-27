@@ -1,4 +1,6 @@
-/* Footer styles */
+/*------------------------------------*\
+  #FOOTER-STYLES
+\*------------------------------------*/
 
 footer {
     line-height: 1.5;
@@ -8,9 +10,10 @@ footer {
 }
 
 .footer-wrapper {
+    display: grid;
     width: 90vw;
     margin: auto;
-    display: grid;
+    padding: 1rem 1rem 0;
     /* grid-gap: 8%;
     row-gap: 4%;*/
     grid-template-columns: 1fr 1fr 1fr 1fr;
