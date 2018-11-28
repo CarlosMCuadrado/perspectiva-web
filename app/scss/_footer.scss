@@ -11,24 +11,38 @@ footer {
 
 .footer-wrapper {
     display: grid;
-    width: 90vw;
+    width: 90%;
     margin: auto;
     padding: 1rem 1rem 0;
     /* grid-gap: 8%;
     row-gap: 4%;*/
+    grid-column-gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.2fr 0.3fr 0.2fr;
+}
+
+.justify-center {
+    justify-self: center;
 }
 
 #mail {
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+
 }
 
 #newsletter {
     grid-colum-start: span 2;
     grid-row-start: 2;
+}
+
+.social-links {
+  display: flex;
+
+   li {
+     padding-right: 1rem;
+   }
 }
 
 #social {
@@ -46,10 +60,13 @@ footer {
 #coppy {
     grid-row-start: 4;
     align-self: end;
+    color: $medium-grey;
 }
 
+////////////////////////
+//Form element
+////////////////////////
 
-/* Styles for the form element */
 .flex-form {
     display: flex;
     justify-content: flex-start;
@@ -68,8 +85,9 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
-/* Media queries */
+////////////////////////
+//Media queries
+////////////////////////
 
 @media screen and (max-width: 600px){
     .footer-wrapper {

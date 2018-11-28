@@ -30,11 +30,17 @@
 <body>
 
     <header>
+      <nav class="languaje">
+        <ul>
+            <li><a class="nav-link" href="#">Languaje</a></li>
+            <li><a class="nav-link" href="#">About</a></li>
+        </ul>
+      </nav>
 
         <figure class="brand">
             <a href="index.html"><img src="../img/mainLogo.svg" alt="Perspectiva logo"></a>
         </figure>
-        <nav role="navigation">
+        <nav class="main-navigation" role="main navigation">
             <ul>
                 <li><a class="nav-link" href="projects.html">Projects</a></li>
                 <li><a class="nav-link" href="about.html">About</a></li>
@@ -47,13 +53,14 @@
 <section role="main" class="main">
     <!-- main wrapper push down sticky footer-->
 
-<div class="flex-container space-center">
-  <figure class="">
+<div class="flex-container wrapper-center">
+  <figure class="col-2">
     <img src="../img/hero_image.jpg" alt="Perspectiva Headquarters" />
   </figure>
 
 </div>
 
+<div class="container">
 <div class="wrapper-row">
   <div class="col">
     <div class="project-title">
@@ -79,26 +86,94 @@
               </div>
       </div>
   </div>
+</div>
 
-<div class="wrapper-row space-between">
-  <div class="col-1">
-    <div class="flex-container space-center">
+<div class="container">
+  <div class="wrapper-row">
+    <div class="col portrait">
       <figure class="">
-        <img src="../img/marc.jpg" alt="Perspectiva Headquarters" />
+        <img src="../img/portrait.jpg" alt="Marc Real" />
       </figure>
+<figcaption>
+  <p>Marc Real</p>
+  <div class="em-dash"></div>
+  <p>CEO</p>
+  <ul class="social-links">
+      <li><a class="social-link" href=""><span class="icon-ig_icon"></span></a></li>
+      <li><a class="social-link" href=""><span class="icon-linkedin_icon"></span></a></li>
+      <li><a class="social-link" href=""><span class="icon-twitter_icon"></span></a></li>
+  </ul>
+</figcaption>
+    </div>
 
+    <div class="col">
+      <figure class="">
+        <img src="../img/portrait.jpg" alt="Marc Real" />
+      </figure>
+      <div class="project-title">
+          <p>Marc Real</p>
+          <div class="em-dash"></div>
+          <p>CEO</p>
+          </div>
     </div>
   </div>
-  <div class="col-1">
-    <div class="flex-container space-center">
-      <figure class="">
-        <img src="../img/marc.jpg" alt="Perspectiva Headquarters" />
-      </figure>
 
+  <div class="wrapper-row">
+    <div class="col portrait">
+      <figure class="">
+        <img src="../img/portrait-2.png" alt="Marc Real" />
+      </figure>
+<figcaption>
+  <p>Marc Real</p>
+  <div class="em-dash"></div>
+  <p>CEO</p>
+</figcaption>
+    </div>
+
+    <div class="col">
+      <figure class="">
+        <img src="../img/portrait-2.png" alt="Marc Real" />
+      </figure>
+      <div class="project-title">
+          <p>Marc Real</p>
+          <div class="em-dash"></div>
+          <p>CEO</p>
+          </div>
     </div>
   </div>
 </div>
 
+<div class="container">
+<div class="wrapper-row">
+  <div class="col-1">
+    <div class="project-title">
+        <p>Perspectiva</p>
+        <div class="em-dash"></div>
+        </div>
+        <p>
+          Balears, 8, 08328,
+Alella, Barcelona, Spain.
+        </p>
+        <div class="" id="mail">
+            <p>
+                General inquires<br>
+                <a href="mailto:hello@perspectiva.es">hello@perspectiva.es</a></p>
+            <p>
+                Project inquires<br>
+                <a href="mailto:info@perspectiva.es">info@perspectiva.es</a></p>
+            <p>
+                Careers<br>
+                <a href="mailto:careers@perspectiva.es">careers@perspectiva.es</a><br>
+            </p>
+        </div>
+
+  </div>
+  <div class="col">
+<iframe src="https://snazzymaps.com/embed/115810" width="100%" height="100%" style="border:none;"></iframe>
+  </div>
+
+</div>
+  </div>
 
 </section>
 
@@ -111,14 +186,14 @@
             </figure>
         </div>
 
-        <div class="footer-item" id="phone">
+        <div class="justify-center" id="phone">
             <p>
                 t. (34) 93 540 58 41<br>
                 f. (34) 93 555 68 90
             </p>
         </div>
 
-        <div class="footer-item" id="direction">
+        <div class="justify-center" id="direction">
             <p>
                 Balears, 8, 08328,<br>
                 Alella, Barcelona,
@@ -127,7 +202,7 @@
             </p>
         </div>
 
-        <div class="footer-item" id="mail">
+        <div class="justify-center" id="mail">
             <p>
                 General inquires<br>
                 <a href="mailto:hello@perspectiva.es">hello@perspectiva.es</a></p>

@@ -2,60 +2,85 @@
   #GRID GENERAL-STYLES
 \*------------------------------------*/
 
-
-
-.wrapper-row {
-  display: flex;
-  flex-direction: row;
-  width: 90vw;
-  margin: auto;
-  padding: 2rem 1rem;
-}
-
-.wrapper-col {
-  display: flex;
-  flex-direction: column;
-  width: 90vw;
-  margin: auto;
-  padding: 2rem 1rem;
+.container {
+  padding: 3rem 1rem;
 }
 
 .flex-container {
   display: flex;
-
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  padding: 3rem 1rem;
 }
 
-.space-center {
-  justify-content: center;
+.wrapper-row {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  width: 80%;
+  margin: auto;
+  //padding: 2rem 1rem;
 }
 
-.space-between {
-  justify-content: space-between;
-}
-
-.space-around {
-    justify-content: space-around;
+.wrapper-col {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  width: 80%;
+  margin: auto;
+  //padding: 2rem 1rem;
 }
 
 .col {
   flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
   padding: 1rem;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .col-1 {
-  width: 33vw;
+  max-width: 33%;
   padding: 1rem;
 }
 
 .col-2 {
-  width: 66vw;
+  max-width: 66%;
   padding: 1rem;
 }
 
-.center {
-  text-align: center;
+
+
+////////////////////////
+//Column Distribution
+////////////////////////
+
+.wrapper-center {
+  justify-content: center;
 }
 
+.wrapper-between {
+  justify-content: space-between;
+}
+
+.wrapper-around {
+    justify-content: space-around;
+}
+
+.wrapper-end {
+  justify-content: flex-end;
+}
+
+////////////////////////
+//Media queries
+////////////////////////
 
 @media (max-width: 400px) {
   .wrapper-col {

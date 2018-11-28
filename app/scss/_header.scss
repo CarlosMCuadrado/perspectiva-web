@@ -5,21 +5,23 @@
 header {
     display: flex;
     flex-direction: column;
-    padding: 3% 0;
+    //padding: 3% 0;
     align-items: center;
+}
 
-    nav {
-        width: 90vw;
-        margin: auto;
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    width: 90%;
+    margin: auto;
 
-        ul {
+    ul {
 
-            display: flex;
-            justify-content: space-around;
-            padding: 3% 0;
-        }
+        display: flex;
+        justify-content: space-around;
+        padding: 3% 0;
     }
-
 }
 
 .brand {

@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     line-height: 1;
     font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-    color: $black;
+    color: #4D4D4D;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -58,12 +58,26 @@ a {
   }
   }
 
+  img {
+    display: block;
+width: 100%;
+height: auto;
+opacity: 1;
+transition: opacity 250ms ease-in-out;
+  }
+
+
+  ////////////////////////
+  //Just Aesthetic styles
+  ////////////////////////
+
+
 .em-dash {
   height: 2px;
   margin-top: -1rem;
   margin-bottom: 0.5rem;
   width: 40px;
-  background-color: black;
+  background-color: $dark-grey;
 }
 
 .em-dashWhite {
@@ -75,22 +89,17 @@ a {
 }
 
 .bg-mediumGrey {
-  width: 100%;
+width: 100%;
 background-color: $medium-grey;
 color: white;
 }
 
 .bg-lightGrey {
-    width: 100%;
+  width: 100%;
 background-color: $dark-white;
 color: $dark-grey;
 }
 
-.bg-darkWhite {
-    width: 100%;
-background-color: $dark-white;
-color: $dark-grey;
-}
 
 .black-line {
   border-bottom: 25px solid black;
