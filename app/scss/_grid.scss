@@ -13,6 +13,13 @@
   padding: 3rem 1rem;
 }
 
+.grid-container {
+  display: grid;
+  display: -webkit-grid;
+  display: -ms-grid;
+  padding: 3rem 1rem;
+}
+
 .wrapper-row {
   display: flex;
   display: -webkit-flex;

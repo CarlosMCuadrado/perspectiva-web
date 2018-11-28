@@ -5,9 +5,35 @@
 header {
     display: flex;
     flex-direction: column;
-    //padding: 3% 0;
+    padding: 1% 0;
     align-items: center;
 }
+
+
+.lang-navigation {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding: 0.8rem 0;
+border-bottom: thin solid $dark-white;
+}
+
+
+
+
+/*------------------------------------*\
+  #VERTICAL NAV
+
+  .vertical {
+    align-self: flex-start;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+\*------------------------------------*/
+
 
 .main-navigation {
   display: flex;
@@ -17,14 +43,15 @@ header {
     margin: auto;
 
     ul {
-
+width: 90%;
         display: flex;
         justify-content: space-around;
-        padding: 3% 0;
+        //padding: 3% 0;
     }
 }
 
 .brand {
     display: flex;
     justify-content: center;
+    padding: 1.5% 0;
 }

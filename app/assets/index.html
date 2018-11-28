@@ -28,26 +28,57 @@
 </head>
 
 <body>
-
+  <nav class="lang-navigation">
+              <a class="font_small" href="#"  onclick="openNav()">change language</a>
+  </nav>
     <header>
+
 
         <figure class="brand">
             <a href="index.html"><img src="../img/mainLogo.svg" alt="Perspectiva logo"></a>
         </figure>
-        <nav role="navigation">
+        <nav class="main-navigation" role="main navigation">
             <ul>
                 <li><a class="nav-link" href="projects.html">Projects</a></li>
                 <li><a class="nav-link" href="about.html">About</a></li>
                 <li><a class="nav-link"  href="services.html">Services</a></li>
             </ul>
         </nav>
+
+        <div id="lang-nav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+              <a href="#">English</a>
+              <a href="#">Spanish</a>
+          </div>
+      </div>
+
+      <script>
+      function openNav() {
+              document.getElementById("lang-nav").style.height = "100%";
+          }
+          function closeNav() {
+              document.getElementById("lang-nav").style.height = "0%";
+          }
+      </script>
     </header>
 
 
 <section role="main" class="main"> <!-- main wrapper push down sticky footer-->
-   
-</section>
 
+<div class="grid-container">
+  <div class="">
+<p>We are an award winning product design and innovation studio based in Barcelona.</p>
+<p>We help global organisations and startups to accelerate innovation by uncovering human insights and transforming them into tomorrow’s products, apps, services, and experiences.</p>
+  </div>
+  
+  <figure class="">
+    <img src="../img/home-hero.jpg" alt="Perspectiva">
+  </figure>
+
+</div>
+
+</section>
 
 <footer>
     <div class="footer-wrapper">

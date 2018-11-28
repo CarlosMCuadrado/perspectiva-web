@@ -28,14 +28,11 @@
 </head>
 
 <body>
-
+  <nav class="lang-navigation">
+              <a class="font_small" href="#"  onclick="openNav()">change language</a>
+  </nav>
     <header>
-      <nav class="languaje">
-        <ul>
-            <li><a class="nav-link" href="#">Languaje</a></li>
-            <li><a class="nav-link" href="#">About</a></li>
-        </ul>
-      </nav>
+
 
         <figure class="brand">
             <a href="index.html"><img src="../img/mainLogo.svg" alt="Perspectiva logo"></a>
@@ -47,6 +44,23 @@
                 <li><a class="nav-link"  href="services.html">Services</a></li>
             </ul>
         </nav>
+
+        <div id="lang-nav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+              <a href="#">English</a>
+              <a href="#">Spanish</a>
+          </div>
+      </div>
+
+      <script>
+      function openNav() {
+              document.getElementById("lang-nav").style.height = "100%";
+          }
+          function closeNav() {
+              document.getElementById("lang-nav").style.height = "0%";
+          }
+      </script>
     </header>
 
 
