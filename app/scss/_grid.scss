@@ -20,6 +20,19 @@
   padding: 3rem 1rem;
 }
 
+.grid-image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.grid-text {
+ position:absolute;
+ display: grid;
+ align-self: center;
+ justify-self: center;
+}
+
 .wrapper-row {
   display: flex;
   display: -webkit-flex;
@@ -52,6 +65,7 @@
   max-width: 100%;
   min-width: 0;
 }
+
 
 .col-1 {
   max-width: 33%;
