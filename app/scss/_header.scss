@@ -11,13 +11,13 @@ header {
 
 
 .lang-navigation {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-width: 100%;
-padding: 0.8rem 0;
-border-bottom: thin solid $dark-white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem 0;
+    border-bottom: thin solid $dark-white;
 }
 
 
@@ -36,14 +36,14 @@ border-bottom: thin solid $dark-white;
 
 
 .main-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 90%;
     margin: auto;
 
     ul {
-width: 90%;
+        width: 90%;
         display: flex;
         justify-content: space-around;
         //padding: 3% 0;

@@ -38,11 +38,11 @@ footer {
 }
 
 .social-links {
-  display: flex;
+    display: flex;
 
-   li {
-     padding-right: 1rem;
-   }
+    li {
+        padding-right: 1rem;
+    }
 }
 
 #social {
@@ -89,7 +89,7 @@ input[type=submit] {
 //Media queries
 ////////////////////////
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .footer-wrapper {
         display: flex;
         -webkit-flex-direction: column;
@@ -118,6 +118,6 @@ input[type=submit] {
     }
 
     input[type=text] {
-       width: 100%;
+        width: 100%;
     }
 }

@@ -19,15 +19,17 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@perspectiva" />
     <link rel="stylesheet" href="css/app.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
 </head>
 
-<body>
+<body data-aos="fade-up" data-aos-duration="2000">
   <nav class="lang-navigation">
               <a class="font_small" href="#"  onclick="openNav()">change language</a>
   </nav>
@@ -64,29 +66,55 @@
     </header>
 
 
-<section role="main" class="main"> <!-- main wrapper push down sticky footer-->
+<section role="main" class="main">
+    <!-- main wrapper push down sticky footer-->
 
-<div class="grid-container">
-  <div class="grid-text">
-<p>We are an award winning product design and innovation studio based in Barcelona.</p>
-<div class="em-dash"></div>
-<p>We help global organisations and startups to accelerate innovation by uncovering human insights and transforming them into tomorrow’s products, apps, services, and experiences.</p>
-  </div>
-  <figure class="grid-image">
-    <img src="../img/home-hero.jpg" alt="Perspectiva">
-  </figure>
-</div>
+    <div class="grid-container">
+        <div class="grid-text">
+            <p>We are an award winning product design and innovation studio based in Barcelona.</p>
+            <div class="em-dash"></div>
+            <p>We help global organisations and startups to accelerate innovation by uncovering human insights and transforming them into tomorrow’s products, apps, services, and experiences.</p>
+        </div>
+        <figure class="grid-image">
+            <img src="../img/home-hero.jpg" alt="Perspectiva">
+        </figure>
+    </div>
 
-<div class="container">
-  <div class="wrapper-row">
-    <div class="col-1">
+    <div class="wrapper-row wrapper-end">
+        <div class="col-2-grid box" data-aos="fade-up">
+            <div class="grid-text">
+                <p>Post box</p>
+                <div class="em-dash"></div>
+                <p>IoT</p>
+            </div>
+            <figure class="grid-image">
+                <img src="../img/project_00.jpg">
+            </figure>
+
+        </div>
     </div>
-    <div class="col-2">
+
+    <div class="wrapper-row wrapper-start">
+        <div class="col-2-grid box">
+            <div class="grid-text">
+                <p>Post box</p>
+                <div class="em-dash"></div>
+                <p>IoT</p>
+            </div>
+            <figure class="grid-image">
+                <img src="../img/project_02.png" alt="Perspectiva">
+            </figure>
+
+        </div>
     </div>
-  </div>
-</div>
 
 </section>
+<script>
+    AOS.init({
+        duration: 1200,
+    })
+
+</script>
 
 <footer>
     <div class="footer-wrapper">
@@ -145,9 +173,14 @@
         </div>
     </div>
 </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 <script type="text/javascript" src="js/vendor.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
+
 </body>
 
 </html>
