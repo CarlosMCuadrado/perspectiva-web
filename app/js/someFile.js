@@ -10,8 +10,8 @@ function someFunction() {
 
 
        AOS.init({
-            duration: 1200,
-            easing: 'ease-in-out-back'
+            //duration: 1200,
+            //easing: 'ease-in-out-back'
         });
 
 
