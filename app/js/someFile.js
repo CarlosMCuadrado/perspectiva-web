@@ -6,9 +6,10 @@ function someFunction() {
 
         //añadiendo jquery e easing
         require('jquery');
-        require('aos');
+         var AOS = require('aos');
 
-        AOS.init({
+
+       AOS.init({
             duration: 1200,
             easing: 'ease-in-out-back'
         });

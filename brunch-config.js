@@ -29,5 +29,6 @@ exports.npm = {
     $: 'jquery',
   },
   styles: {
+    aos: ["dist/aos.css"]
   },
 };

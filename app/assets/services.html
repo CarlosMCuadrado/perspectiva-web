@@ -19,7 +19,6 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@perspectiva" />
     <link rel="stylesheet" href="css/app.css" />
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,9 +29,9 @@
 </head>
 
 <body data-aos="fade-up" data-aos-duration="2000">
-  <nav class="lang-navigation">
-              <a class="font_small" href="#"  onclick="openNav()">change language</a>
-  </nav>
+    <nav class="lang-navigation">
+        <a class="font_small" href="#" onclick="openNav()">change language</a>
+    </nav>
     <header>
 
 
@@ -43,26 +42,28 @@
             <ul>
                 <li><a class="nav-link" href="projects.html">Projects</a></li>
                 <li><a class="nav-link" href="about.html">About</a></li>
-                <li><a class="nav-link"  href="services.html">Services</a></li>
+                <li><a class="nav-link" href="services.html">Services</a></li>
             </ul>
         </nav>
 
         <div id="lang-nav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-              <a href="#">English</a>
-              <a href="#">Spanish</a>
-          </div>
-      </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">English</a>
+                <a href="#">Spanish</a>
+            </div>
+        </div>
 
-      <script>
-      function openNav() {
-              document.getElementById("lang-nav").style.height = "100%";
-          }
-          function closeNav() {
-              document.getElementById("lang-nav").style.height = "0%";
-          }
-      </script>
+        <script>
+            function openNav() {
+                document.getElementById("lang-nav").style.height = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("lang-nav").style.height = "0%";
+            }
+
+        </script>
     </header>
 
 
@@ -311,10 +312,6 @@
         </div>
     </div>
 </footer>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
 
 <script type="text/javascript" src="js/vendor.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
