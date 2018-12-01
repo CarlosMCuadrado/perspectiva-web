@@ -133,3 +133,10 @@ img {
         z-index: 1000;
     }
 }
+
+
+.rounded-shadow {
+  background-color:  rgba(201, 76, 76, 0);
+  border-radius: 1rem;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
