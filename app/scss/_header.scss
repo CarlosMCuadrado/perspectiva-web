@@ -3,7 +3,11 @@
 \*------------------------------------*/
 
 header {
-    display: flex;
+  display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
     flex-direction: column;
     padding: 1% 0;
     align-items: center;
@@ -54,4 +58,9 @@ header {
     display: flex;
     justify-content: center;
     padding: 1.5% 0;
+}
+
+.is-active {
+  border-bottom: 2px solid $dark-grey;
+  color: $black;
 }

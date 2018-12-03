@@ -66,6 +66,7 @@ img {
     display: block;
     width: 100%;
     height: auto;
+     min-height: 0;
     opacity: 1;
     transition: opacity 250ms ease-in-out;
 }
