@@ -7,17 +7,16 @@
 }
 
 .flex-container {
-  display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     padding: 3rem 1rem;
 }
 
 .grid-container {
     display: grid;
-    display: -webkit-grid;
     display: -ms-grid;
     padding: 3rem 1rem;
 }
@@ -31,16 +30,17 @@ display: flex;
 .grid-text {
     position: absolute;
     display: grid;
+    display: -ms-grid;
     align-self: center;
     justify-self: center;
 }
 
 .row {
-  display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     width: 100%;
@@ -50,11 +50,11 @@ display: flex;
 
 
 .wrapper-row {
-  display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-direction: row;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
@@ -64,11 +64,11 @@ display: flex;
 }
 
 .wrapper-col {
-  display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -107,8 +107,6 @@ display: flex;
 
 .col-2-grid {
     display: grid;
-    display: grid;
-    display: -webkit-grid;
     display: -ms-grid;
     max-width: 66%;
     padding: 1rem;
@@ -121,22 +119,31 @@ display: flex;
 ////////////////////////
 
 .wrapper-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .wrapper-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .wrapper-around {
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
 .wrapper-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
 }
 
 .wrapper-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
 }
 

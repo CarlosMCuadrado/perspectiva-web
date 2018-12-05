@@ -54,30 +54,27 @@
 
 <body>
   <header>
-
-    <nav class="lang-nav">
-      <a class="font_small" href="#" onclick="openNav()">Change Languaje</a>
-    </nav>
-
-    <nav class="brand-nav">
-
-      <div class="brand">
-      <figure>
-        <a href="index.html"><img src="../img/mainLogo.svg" alt="Perspectiva logo"></a>
-      </figure>
-      </div>
-
-      <ul class="main-nav" role="main navigation">
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      </ul>
-
+    <nav class="lang-navigation">
+        <a class="font_small" href="#" onclick="openNav()">change language</a>
     </nav>
 
 
+<div class="brand">
+  <figure>
+      <a href="index.html"><img src="../img/mainLogo.svg" alt="Perspectiva logo"></a>
+  </figure>
+</div>
 
-        <div id="overlay-nav" class="overlay">
+
+        <nav class="main-navigation" role="main navigation">
+            <ul>
+                <li class=""><a class="nav-link" href="projects.html">Projects</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="services.html">Services</a></li>
+            </ul>
+        </nav>
+
+        <div id="lang-nav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
                 <a href="#">English</a>
@@ -87,13 +84,12 @@
 
         <script>
             function openNav() {
-                document.getElementById("overlay-nav").style.height = "100%";
+                document.getElementById("lang-nav").style.height = "100%";
             }
 
             function closeNav() {
-                document.getElementById("overlay-nav").style.height = "0%";
+                document.getElementById("lang-nav").style.height = "0%";
             }
 
         </script>
-
     </header>

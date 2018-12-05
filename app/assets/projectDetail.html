@@ -53,27 +53,31 @@
 </head>
 
 <body>
-    <nav class="lang-navigation">
-        <a class="font_small" href="#" onclick="openNav()">change language</a>
+  <header>
+
+    <nav class="lang-nav">
+      <a class="font_small" href="#" onclick="openNav()">Change Languaje</a>
     </nav>
-    <header>
 
-<div class="brand">
-  <figure>
-      <a href="index.html"><img src="../img/mainLogo.svg" alt="Perspectiva logo"></a>
-  </figure>
-</div>
+    <nav class="brand-nav">
+
+      <div class="brand">
+      <figure>
+        <a href="index.html"><img src="../img/mainLogo.svg" alt="Perspectiva logo"></a>
+      </figure>
+      </div>
+
+      <ul class="main-nav" role="main navigation">
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      </ul>
+
+    </nav>
 
 
-        <nav class="main-navigation" role="main navigation">
-            <ul>
-                <li class=""><a class="nav-link" href="projects.html">Projects</a></li>
-                <li><a class="nav-link" href="about.html">About</a></li>
-                <li><a class="nav-link" href="services.html">Services</a></li>
-            </ul>
-        </nav>
 
-        <div id="lang-nav" class="overlay">
+        <div id="overlay-nav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
                 <a href="#">English</a>
@@ -83,18 +87,19 @@
 
         <script>
             function openNav() {
-                document.getElementById("lang-nav").style.height = "100%";
+                document.getElementById("overlay-nav").style.height = "100%";
             }
 
             function closeNav() {
-                document.getElementById("lang-nav").style.height = "0%";
+                document.getElementById("overlay-nav").style.height = "0%";
             }
 
         </script>
+
     </header>
 
 
-<section role="main" class="main">
+<section role="main" class="site-content">
     <!-- main wrapper push down sticky footer-->
 
 </section>
