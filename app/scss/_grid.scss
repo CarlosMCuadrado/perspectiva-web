@@ -3,7 +3,8 @@
 \*------------------------------------*/
 
 .container {
-    padding: 3rem 1rem;
+  width: 90%;
+    padding: 3rem 0;
 }
 
 .flex-container {
@@ -58,8 +59,8 @@
     flex-direction: row;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
     //padding: 2rem 1rem;
 }
 
@@ -72,8 +73,8 @@
     flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
     //padding: 2rem 1rem;
 }
 
@@ -83,17 +84,23 @@
     -ms-flex: 1;
     padding: 1rem;
     max-width: 100%;
-    min-width: 0;
+}
+
+.col-grid {
+  display: grid;
+  display: -ms-grid;
+  max-width: 100%;
+  padding: 1rem;
 }
 
 
 .col-1 {
-    max-width: 33%;
+    max-width: 30%;
     padding: 1rem;
 }
 
 .col-2 {
-    max-width: 66%;
+    max-width: 60%;
     padding: 1rem;
 }
 
