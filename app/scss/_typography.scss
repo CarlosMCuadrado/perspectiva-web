@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 html {
-    font-size: 1em;
+    font-size: 100%;
 }
 
 body {
@@ -27,31 +27,33 @@ h4 {
 
 h1 {
     margin-top: 0;
-    font-size: 3.998em;
+    font-size: 2.074em;
 }
 
 h2 {
-    font-size: 2.827em;
+    font-size: 1.728em;
 }
 
 h3 {
-    font-size: 1.999em;
+    font-size: 1.44em;
 }
 
 h4 {
-    font-size: 1.414em;
+    font-size: 1.2em;
 }
 
 small,
 .font_small {
-    font-size: 0.707em;
+    font-size: 0.833em;
 }
 
 .bold {
     font-weight: bold;
 }
 
-
+.center {
+  text-align: center;
+}
 
 ////////////////////////
 //Icon typography
