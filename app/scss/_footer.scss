@@ -3,64 +3,16 @@
 \*------------------------------------*/
 
 footer {
-    flex: none;
     line-height: 1.5;
     background-color: $dark-white;
     padding: 5% 5% 2%;
-
 }
 
-.footer-wrapper {
-    display: grid;
-    width: 90%;
-    margin: auto;
-    padding: 1rem 1rem 0;
-    /* grid-gap: 8%;
-    row-gap: 4%;*/
-    grid-column-gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.2fr 0.3fr 0.2fr;
+#footer-logo {
+  padding-bottom: 1rem;
 }
-
-.justify-center {
-    justify-self: center;
-}
-
-#mail {
-    grid-column-start: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-
-}
-
-#newsletter {
-    grid-colum-start: span 2;
-    grid-row-start: 2;
-}
-
-.social-links {
-    display: flex;
-
-    li {
-        padding-right: 1rem;
-    }
-}
-
-#social {
-    grid-row-start: 3;
-    width: 40%;
-    align-self: center;
-
-    ul {
-        display: flex;
-        justify-content: space-between;
-    }
-
-}
-
 #coppy {
-    grid-row-start: 4;
-    align-self: end;
+    text-align: center;
     color: $medium-grey;
 }
 
@@ -69,12 +21,14 @@ footer {
 ////////////////////////
 
 .flex-form {
+
     display: flex;
     justify-content: flex-start;
 }
 
 input[type=button],
 input[type=text] {
+  width: 100%;
     border: none;
     color: $dark-grey;
     padding: 8px 16px;
@@ -84,41 +38,4 @@ input[type=text] {
 
 input[type=submit] {
     cursor: pointer;
-}
-
-////////////////////////
-//Media queries
-////////////////////////
-
-@media screen and (max-width: 600px) {
-    .footer-wrapper {
-        display: flex;
-        -webkit-flex-direction: column;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-item {
-        width: 100%;
-        text-align: center;
-    }
-
-    #social {
-        width: 90%;
-        padding: 4% 0%;
-    }
-
-    #newsletter {
-        order: 2;
-    }
-
-    #coppy {
-        order: 3;
-        padding: 4% 0%;
-    }
-
-    input[type=text] {
-        width: 100%;
-    }
 }

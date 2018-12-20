@@ -80,6 +80,19 @@ img {
 }
 
 
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+
+  li{
+      padding: 0.5rem 0.5rem 0.5rem 0;
+    display: inline-block;
+  }
+
+}
+
+
+
 ////////////////////////
 //Just Aesthetic styles
 ////////////////////////

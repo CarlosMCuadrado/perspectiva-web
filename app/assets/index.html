@@ -102,7 +102,6 @@
     </header>
 
 
-
 <!-- main wrapper push down sticky footer without header-->
 <main class="site-content">
     <!-- main wrapper push down sticky footer-->
@@ -121,7 +120,7 @@
     </div>
 
 <div class="container"> <!-- main wrapper per project row for padding/margin purposes-->
-  <div class="grid grid-between">  <!-- each project-->
+  <div class="grid grid-between" data-aos="zoom-in-up" data-aos-duration="2000">  <!-- each project-->
     <div class="col-8 col-sm">
       <img src="../img/project_03.jpg" alt="Perspectiva">
     </div>
@@ -133,7 +132,7 @@
 </div>
 
 <div class="container"> <!-- main wrapper per project row for padding/margin purposes-->
-  <div class="grid grid-between">  <!-- each project-->
+  <div class="grid grid-between" data-aos="zoom-in-up" data-aos-duration="2000">  <!-- each project-->
     <div class="col-3 col-sm col-middle">
       <h2>Slickeep</h2>
       <p>IoT, Organize your ideas as beautiful boards that are perfect for visual thinkers.</p>
@@ -145,7 +144,7 @@
 </div>
 
 <div class="container"> <!-- main wrapper per project row for padding/margin purposes-->
-  <div class="grid grid-between">  <!-- each project-->
+  <div class="grid grid-between" data-aos="zoom-in-up" data-aos-duration="2000">  <!-- each project-->
     <div class="col-8 col-sm">
       <img src="../img/project_03.jpg" alt="Perspectiva">
     </div>
@@ -157,7 +156,7 @@
 </div>
 
 <div class="container"> <!-- main wrapper per project row for padding/margin purposes-->
-  <div class="grid grid-between">  <!-- each project-->
+  <div class="grid grid-between" data-aos="zoom-in-up" data-aos-duration="2000">  <!-- each project-->
     <div class="col-3 col-sm col-middle">
       <h2>Slickeep</h2>
       <p>IoT, Organize your ideas as beautiful boards that are perfect for visual thinkers.</p>
@@ -171,14 +170,16 @@
 </main>
 
 <footer>
-
-<div class="container">
-  <div class="grid grid-between">
-    <div class="col col-sm">
-      <figure>
-          <img src="../img/footerLogo.svg" alt="Perspectiva logo">
-      </figure>
+  <div class="container">
+    <div class="grid">
+      <div class="col-2 col-sm">
+        <figure id="footer-logo">
+            <img src="../img/footerLogo.svg" alt="Perspectiva logo">
+        </figure>
+      </div>
     </div>
+
+  <div class="grid grid-between">
     <div class="col col-sm">
       <p>
           t. (34) 93 540 58 41<br>
@@ -195,37 +196,30 @@
     </div>
     <div class="col col-sm">
       <p>
-          General inquires<br>
-          <a href="mailto:hello@perspectiva.es">hello@perspectiva.es</a></p>
-      <p>
           Project inquires<br>
           <a href="mailto:info@perspectiva.es">info@perspectiva.es</a></p>
       <p>
-          Careers<br>
-          <a href="mailto:careers@perspectiva.es">careers@perspectiva.es</a><br>
-      </p>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="grid">
-    <div class="col col-sm">
-
+          General &amp; careers inquires<br>
+          <a href="mailto:hello@perspectiva.es">hello@perspectiva.es</a></p>
     </div>
     <div class="col col-sm">
-      <ul>
+      <form class="flex-form">
+          <input type="text" placeholder="our newsletter" name="email" aria-labelledby="mail input" required>
+      </form>
+      <ul class="social-links">
           <li><a class="social-link" href=""><span class="icon-ig_icon"></span></a></li>
           <li><a class="social-link" href=""><span class="icon-linkedin_icon"></span></a></li>
           <li><a class="social-link" href=""><span class="icon-twitter_icon"></span></a></li>
           <li><a class="social-link" href=""><span class="icon-behance_icon"></span></a></li>
       </ul>
     </div>
-
   </div>
-
 </div>
-
-
+  <div class="grid">
+    <div class="col" id="coppy">
+      <p class="font_small">&copy; 2018. Designed &amp; Coded by Perspectiva.</p>
+    </div>
+  </div>
 
 </footer>
 
