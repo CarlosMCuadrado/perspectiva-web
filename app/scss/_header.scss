@@ -36,6 +36,7 @@ padding: 0 0 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  overflow: hidden;
   li {
     padding: 0 0.5rem;
   }
@@ -44,4 +45,26 @@ padding: 0 0 0.5rem;
 .is-active {
     border-bottom: 2px solid $dark-grey;
     color: $black;
+}
+.responsive-logo {
+  display: none;
+  width: 70%;
+}
+.icon {
+  display: none;
+}
+
+
+/* iPhone 5, 5S, 5C and 5SE */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .responsive-logo, .icon {
+      display: block;
+    }
+    .big-logo {
+      display: none;
+    }
+
 }

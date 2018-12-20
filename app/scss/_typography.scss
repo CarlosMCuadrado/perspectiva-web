@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 html {
-    font-size: 100%;
+    font-size: 1em;
 }
 
 body {
@@ -54,6 +54,29 @@ small,
 .center {
   text-align: center;
 }
+
+/* iPad 3, 4 and Pro 9.7*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 0.8em;
+    }
+}
+
+
+/* iPhone 5, 5S, 5C and 5SE */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      font-size: 0.7em;
+    }
+
+}
+
 
 ////////////////////////
 //Icon typography
